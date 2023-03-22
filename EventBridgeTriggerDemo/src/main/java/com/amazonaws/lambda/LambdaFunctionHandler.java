@@ -13,8 +13,8 @@ import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
 public class LambdaFunctionHandler implements RequestHandler<APIGatewayProxyRequest, APIGatewayProxyResponse> {
-	private String accessKey = "AKIAYUCMZEDMUPNLM73Q";
-	private String secretKey = "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";
+	private String accessKey = "";
+	private String secretKey = "";
 	APIGatewayProxyResponse response = new APIGatewayProxyResponse();
 
     @Override
